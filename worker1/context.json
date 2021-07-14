@@ -1,0 +1,69 @@
+{
+	"name": "worker2-WS-ESC700-G4-WS880T-E700-G4",
+	"EdgeServer": {
+		"netAddress": "192.168.0.13",
+		"CPU": {
+			"cpuClock": 1200.28,
+			"cpuUsage": 0.096,
+			"cpuCore": 8,
+			"cpuOccupancy": 1.567
+		},
+		"RAM": {
+			"totalMemory": 15694,
+			"freeMemory": 11390,
+			"memoryOccupancy": 24.482
+		},
+		"Storage": {
+			"totalDisk": 449145,
+			"freeDisk": 369757,
+			"diskOccuapncy": 13.3
+		},
+		"connectedDevice": 2
+	},
+	"Device": {
+		"cameraIp": [
+			"192.168.0.12",
+			"192.168.0.9"
+		],
+		"videoQuality": [
+			480,
+			720
+		],
+		"videoRate": [
+			22089.928,
+			33062.607
+		],
+		"deviceGPS": {
+			"latitude": [
+				37.61972,
+				37.61972
+			],
+			"longitude": [
+				127.060886,
+				127.060886
+			]
+		}
+	},
+	"AI": {
+		"DetectObject": [
+			[
+				"Human",
+				"Car"
+			],
+			"Fire",
+			"Knife"
+		],
+		"RequiredResource": {
+			"CPU": [
+				0.988,
+				1.764,
+				1.18
+			],
+			"Memory": [
+				192,
+				1842,
+				148
+			]
+		}
+	}
+}
